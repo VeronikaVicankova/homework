@@ -1,2 +1,2 @@
-# Domácí úkol
+# Domácí úkoly
 Veronika Vičánková - Repozitář s domácími úkoly
