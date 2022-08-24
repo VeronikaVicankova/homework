@@ -1,0 +1,371 @@
+@font-face {
+    font-family: 'HelvericaNormal';
+    src: url('../fonts/HelveticaNormal.eot');
+    src: local('0'), url('../fonts/HelveticaNormal.woff') format('woff'), 
+        url('../fonts/HelveticaNormal.ttf') format('truetype'), 
+        url('../fonts/HelveticaNormal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelvericaBolt';
+    src: url('../fonts/HelveticaBold.eot');
+    src: local('0'), url('../fonts/HelveticaBold.woff') format('woff'), 
+        url('../fonts/HelveticaBold.ttf') format('truetype'), 
+        url('../fonts/HelveticaBold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'HelvericaNormal';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.logo {
+    font-family: 'HelvericaBolt';
+    color: #95989a;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.socials a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.top-header {
+    padding-top: 70px;
+    padding-bottom: 190px;
+    background-color: #f4f5f7;
+    
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-text {
+    width: 50%;
+    color: #32325f;
+}
+
+.main-image {
+    width: 50%;
+
+}
+.main-image img {
+    width: 100%;
+}
+
+
+.subtitle {
+    font-size: 20px;
+    font-size: 400;
+    margin-bottom: 15px;
+    display: block;
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+
+.desc {
+    font-size: 2Opx;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 26px;
+
+
+}
+
+.price-tag {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.price {
+    display: block;
+    font-size: 48px;
+    font-weight: 400;
+
+}
+
+.buttons {
+    margin-top: 50px;
+
+}
+
+.btn {
+    font-family: 'HelvericaBolt';
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding:  20px 30px;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 173);
+    border-radius: 6px;
+    margin-right: 30px;
+    display: inline-block;
+    max-width: 250px;
+    text-align: center;
+
+
+}
+
+.green {
+    background-color: #2dce89;
+    
+
+}
+
+.blue {
+    background-color: #5e72e4;
+
+}
+
+.about {
+    padding: 100px 0;
+
+
+}
+
+.about-subheadline {
+    font-style: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+    color: #525f7f;
+}
+
+.about-headline {
+    font-family: 'HelvericaBolt';
+    color: #32325f;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+.about-item span {
+    /* Style for "Hlavní pos" */
+    display: block;
+    color: #525f7f;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 35px;
+    line-height: 1.2;
+}
+
+.about-wrap {
+    display: flex;
+    
+}
+
+.about-item {
+    width: 25%;
+}
+
+.about-item img {
+    margin-bottom: 40px;
+
+}
+
+.people {
+    background-color: #f4f5f7;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+
+.people-headline {
+    font-family: 'HelvericaBolt';
+    color: #32325f;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 65px;
+    margin-top: 0;
+}
+
+.people-subheadline {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: block;
+    color: #32325f;
+}
+
+.people-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.people-block {
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #32325f;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-block {
+    width: 33%;
+
+}
+
+.footer-name {
+    font-family: 'HelvericaBolt';
+    color: white;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.footer-name {
+    color:white;
+    font-style: 16px;
+    margin-bottom: 7px;
+}
+
+
+.footer-header {
+    font-family: 'HelvericaBolt';
+    font-style: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color:white;
+
+}
+
+
+
+
+.footer-link {
+    font-family: 'HelvericaBolt';
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 7px;
+    font-style: 16px;
+}
+
+@media (max-width: 1024px) {
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+    }
+    .btn {
+        max-width: 250px;
+        width: 100%;
+        margin-top: 10px;
+        display: inline-block;
+        max-width: 250px;
+        text-align: center;
+        
+    }
+   
+            
+    }
+    @media (max-width: 768px){
+        .main-image, .main-text{
+            width: 100px;
+        }
+        .main-text {
+            order: 1;
+            margin-top: 40px;
+        }
+        .main{
+            flex-direction: column;
+        }
+        .navbar{
+            margin-bottom: 100px;
+        }
+        .top-header {
+            padding-bottom: 100px;
+        }
+        .price{
+            margin-bottom: 30px;
+        }
+        .about-wrap {
+            flex-wrap: wrap;
+        }
+        .about-item {
+            width: 50%;
+            margin-bottom: 50px;
+        }
+        .about {
+            padding: 80px 0 60px;
+        }
+        .people-block {
+            width: 48%;
+        }
+        .footer-wrap {
+            flex-wrap: wrap;
+        }
+        .footer-block {
+            width: 50%;
+            margin-bottom: 50px;
+        }
+    }
+    @media (max-width: 580px) {
+        .about-item {
+            width: 100%;
+    }
+        .about-headline {
+            margin-bottom: 50px;
+        }
+        .people-headline {
+            margin-bottom: 30px;
+        }
+        .footer-block {
+            width: 100%;
+
+        }
+        .footer {
+            padding-bottom: 0%;
+        }
+    
+    }
+
